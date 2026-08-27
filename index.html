@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚴‍♂️ Velosher Shop</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 24px;
+            padding: 50px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        .logo { font-size: 48px; margin-bottom: 10px; }
+        h1 {
+            color: #2d3436;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            color: #6c757d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(102,126,234,0.4);
+        }
+        .btn-telegram {
+            background: #0088cc;
+        }
+        .btn-telegram:hover {
+            background: #006699;
+            box-shadow: 0 8px 25px rgba(0,136,204,0.4);
+        }
+        .btn-secondary {
+            background: #2d3436;
+        }
+        .btn-secondary:hover {
+            background: #1a1a2e;
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #b2bec3;
+            font-size: 12px;
+        }
+        .badge {
+            display: inline-block;
+            background: #00b894;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🚴‍♂️</div>
+        <h1>Velosher Shop</h1>
+        <p class="subtitle">Магазин велосипедов</p>
+        
+        <div class="badge">🟢 Сайт работает</div>
+
+        <br>
+
+        <a href="/velosher-shop/shop/" class="btn">🛍️ Магазин</a>
+        <br>
+        <a href="https://t.me/velosher_shop_bot" class="btn btn-telegram">🤖 Telegram Бот</a>
+        <br>
+        <a href="/velosher-shop/admin/" class="btn btn-secondary">🔐 Админка</a>
+
+        <div class="footer">
+            <p>© 2024 Velosher Shop</p>
+            <p style="font-size: 11px; color: #dfe6e9;">Полноценная работа доступна при запущенном сервере</p>
+        </div>
+    </div>
+</body>
+</html>
